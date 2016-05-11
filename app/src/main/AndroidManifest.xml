@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="smalltown.com.slideanddraglistview"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.HeaderFooterActivity"
+            android:label="SDLV with header and footer"/>
+        <activity
+            android:name=".activity.DifferentActivity"
+            android:label="SDLV with different menus"/>
+        <activity
+            android:name=".activity.NormalActivity"
+            android:label="Normal ListView"/>
+        <activity
+            android:name=".activity.SimpleActivity"
+            android:label="SlideAndDragListView"/>
+        <activity
+            android:name=".activity.ItemDragActivity"
+            android:label="Touch Item to Drag"/>
+    </application>
+
+</manifest>
